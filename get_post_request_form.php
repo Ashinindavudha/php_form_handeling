@@ -3,6 +3,15 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Get Form</title>
+	<style>
+		
+		ul li {
+			display: inline-block;
+		}
+		ul li a{
+			text-decoration: none;
+		}
+	</style>
 </head>
 <body>
 	<?php require_once 'get_post_request_process.php' ?>
@@ -14,7 +23,11 @@
 	</form>
 	<br><hr>
 	<div>
-		<a href="https://www.facebook.com/rose.tr.75" target="_blank" style="text-decoration: none;">Created By Ashin Indavudha</a>
+		<ul>
+			<li><a href="https://github.com/Ashinindavudha/php_form_handeling" target="_blank">Click Here To Download</a><span> Facebook </span></li>
+			<li><a href="https://www.facebook.com/rose.tr.75" target="_blank">Created By Ashin Indavudha</a></li>
+		</ul>
+		
 	</div>
 </body>
 </html>
